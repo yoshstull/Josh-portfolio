@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joshua Stull</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<section class="hero is-dark is-medium">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        
+                    <!-- </a>
+                    <span class="navbar-burger" data-target="navbarMenuHeroA">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item">
+                            About Me
+                        </a>
+                        <a class="navbar-item">
+                            My Work
+                        </a>
+                        <a class="navbar-item">
+                            Contact Me
+                        </a>
+                        <a class="navbar-item">
+                            Resume
+                        </a> -->
+
+
+
+
+                    
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title is-1">
+                Joshua Stull
+            </p>
+            <p class="subtitle is-3">
+                My Portfolio
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- </div>
+
+    </section class="About Me">
+
+    <div class="card has-background-primary">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-128x128">
+                    <img src="assets\images\IMG_3825.jpg">
+                    </figure>
+                </div>
+                <div class="media-content">
+                <p class="title is-4">About Me</p>
+
+                </div>
+            </div>
+
+            <div class="content">
+            Hi, Im Joshua Stull From the small town of Statesville NC. I am 31 Years old and a novice web developer.
+            Take a look at my Resume and Some of my work down below!
+
+
+            </div>
+        </div> -->
+
+    <!-- </div> -->
+
+    </section> 
+    <div class="tabs is-centered">
+        <ul>
+          <li id="about-me-tab" class="is-active">
+            <a onClick="switchToAboutMe()">
+            <span class="icon is-small"><i class="fa fa-html5"></i></span>
+            <span>About Me</span>
+          </a>
+          </li>
+          <li id="my-work-tab">
+            <a onClick="switchToMyWork()">
+            <span class="icon is-small"><i class="fa fa-tablet"></i></span>
+            <span>My Work</span>
+          </a>
+          </li>
+          <li id="contact-tab">
+            <a onClick="switchToContact()">
+            <span class="icon is-small"><i class="fa fa-file-code-o"></i></span>
+            <span>Contact</span>
+          </a>
+          </li>
+          <li id="resume-tab">
+            <a onClick="switchToResume()">
+            <span class="icon is-small"><i class="fa fa-cog"></i></span>
+            <span>Resume</span>
+          </a>
+        </ul>
+        <!--/tabs is-centered-->
+      </div>
+
+
+
+
+      <!--THE TOP OF THE TAB SECTIONS -->
+
+
+    
+      <div class="container">
+        <div class="is-hidden" id="about-me-content">
+          <!-- <h1 class="title is-1" style="text-align:center;">Here will be the contents of the "All" tab</h1>
+        </div> -->
+    </div>
+
+<section class="is-hidden" id="about-me-media">
+
+<div class="card has-background-primary">
+    <div class="card-content">
+        <div class="media">
+            <div class="media-left">
+                <figure class="image is-128x128">
+                <img src="assets\images\IMG_3825.jpg">
+                </figure>
+            </div>
+            <div class="media-content">
+            <p class="title is-4">About Me</p>
+
+            </div>
+        </div>
+
+        <div class="content">
+        Hi, Im Joshua Stull From the small town of Statesville NC. I am 31 Years old and a novice web developer.
+        Take a look at my Resume and Some of my work down below!
+
+    </section>
+        </div>
+    </div>
+
+    <!---->
+
+
+
+
+
+        
+      <div class="container">
+        <div class="is-hidden" id="my-work-content">
+        </div>
+
+        <section class="is-hidden" id="my-work-media">
+        
+        <div class="card has-background-grey-light">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                        <img src="assets\images\movie finder pro.png">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                    <p class="title is-4">My Work</p>
+                      <p><a href="https://reecedevenney.github.io/Movie-Finder-Pro/">Movie Finder Pro</a></p>
+                    </div>
+                </div>
+        
+                <div class="content">
+                
+        
+            </section>
+                </div>
+            </div>
+
+            <!---->
+
+            <div class="container">
+        <div class="is-hidden" id="contact-tab-content">
+        </div>
+
+        <section class="is-hidden" id="contact-media">
+        
+        <div class="card has-background-success">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                        <img src="assets\images\IMG_3825.jpg">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                    <p class="title is-4">Reach out!</p>
+                    <p><a href="yoshstull@gmail.com">yoshstull@gmail.com</a></p>
+                    <p>(704) 252-1164</p>
+        
+                    </div>
+                </div>
+        
+               
+        
+            </section>
+             
+            </div>
+
+
+        <div class="is-hidden" id="Resume-tab-content">
+          <h1 class="title is-1" style="text-align:center;">Coming Soon!</h1>
+        </div>
+        
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+        function switchToAboutMe() {
+        removeActive();    
+          hideAll();
+          $("#about-me-tab").addClass("is-active");
+          $("#about-me-content").removeClass("is-hidden");
+          $("#about-me-media").removeClass("is-hidden");
+        }
+    
+        function switchToMyWork() {
+          removeActive();
+          hideAll();
+          $("#my-work-tab").addClass("is-active");
+          $("#my-work-content").removeClass("is-hidden");
+          $("#my-work-media").removeClass("is-hidden");
+        }
+    
+        function switchToContact() {
+          removeActive();
+          hideAll();
+          $("#contact-tab").addClass("is-active");
+          $("#contact-tab-content").removeClass("is-hidden");
+          $("#contact-media").removeClass("is-hidden");
+        }
+    
+        function switchToResume() {
+          removeActive();
+          hideAll();
+          $("#resume-tab").addClass("is-active");
+          $("#Resume-tab-content").removeClass("is-hidden");
+        }
+    
+        
+        function removeActive() {
+          $("li").each(function() {
+            $(this).removeClass("is-active");
+          });
+        }
+    
+        function hideAll(){
+          $("#about-me-content").addClass("is-hidden");
+          $("#my-work-content").addClass("is-hidden");
+          $("#contact-tab-content").addClass("is-hidden");
+          $("#Resume-tab-content").addClass("is-hidden");
+          $("#about-me-media").addClass("is-hidden");
+          $("#my-work-media").addClass("is-hidden");
+          $("#contact-media").addClass("is-hidden");
+        }
+      </script>
+
+  
+
+
+    </body>
+
+</html>
